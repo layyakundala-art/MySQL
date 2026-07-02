@@ -4,7 +4,7 @@ mysql>
 mysql> -- 1. Authors
 mysql> CREATE TABLE Authors (
     ->     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    ->     author_name VARCHAR(100) NOT NULL,
+    ->     author_name VARCHAR(100) NOT null,
     ->     bio TEXT
     -> );
 mysql>
